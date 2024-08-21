@@ -57,11 +57,12 @@ label {
   margin: 10px 0;  
 }  
 
-img {  
-  max-width: 90%;  
-  height: auto;  
-  margin: auto;  
-}  
+img {
+    display: block; /* Убирает пробелы под изображением */
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+}
 
 .title {  
   font-size: 2em;  
